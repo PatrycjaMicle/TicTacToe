@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="xo.css">
+    <title>xo</title>
+</head>
+<body>
+<div class="popup" id="popup">
+    <div id="close" onclick="buttonClose()">
+        X
+    </div>
+    <h2 id="msg"></h2>
+</div>
+<div class="site">
+    <h1>Tic Tac Toe</h1>
+    <p>Click on a field to start a play!</p>
+    <div class="spielfeld" id="spielfeld">
+
+        <div class="field" id="field1" onclick="eingabe(1)"></div>
+        <div class="field" id="field2" onclick="eingabe(2)"></div>
+        <div class="field" id="field3" onclick="eingabe(3)"></div>
+        <div class="field" id="field4" onclick="eingabe(4)"></div>
+        <div class="field" id="field5" onclick="eingabe(5)"></div>
+        <div class="field" id="field6" onclick="eingabe(6)"></div>
+        <div class="field" id="field7" onclick="eingabe(7)"></div>
+        <div class="field" id="field8" onclick="eingabe(8)"></div>
+        <div class="field" id="field9" onclick="eingabe(9)"></div>
+
+    </div>
+
+    <button type="submit" onclick="clearAll()" id="clearButton" class="button-1">Neustart</button>
+</div>
+<script src="xo.js"></script>
+</body>
+</html>
